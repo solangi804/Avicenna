@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Avicenna Grammar School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="img and site logo/Logo PNG File Final.png" alt="Avicenna Grammar School Logo">
+            </div>
+            <div class="loader-text">Avicenna Grammar School</div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img and site logo/Logo PNG File Final.png" alt="Avicenna Grammar School Logo">
+                </a>
+                <div class="logo-text">
+                    <h1>Avicenna Grammar School</h1>
+                    <p>Empowering Minds, Shaping Future</p>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>School Gallery</h1>
+            <p>Explore our school events, achievements, and memorable moments</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <!-- Gallery Filter -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="exams">Exams</button>
+                <button class="filter-btn" data-filter="success">Success</button>
+                <button class="filter-btn" data-filter="activities">Activities</button>
+                <button class="filter-btn" data-filter="students">Students</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-no-results" id="galleryNoResults">
+                <i class="fas fa-images"></i>
+                <h3>No images found in this category</h3>
+                <p>Please select another category to view images.</p>
+            </div>
+            <div class="gallery-grid">
+                <!-- Events -->
+                <div class="gallery-item" data-category="events">
+                    <img src="img and site logo/Kidsannual.jpg" alt="Annual Event">
+                    <div class="gallery-overlay">
+                        <h3>Annual Event</h3>
+                        <p>School Annual Function</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="img and site logo/pamflet.png" alt="School Event">
+                    <div class="gallery-overlay">
+                        <h3>School Event</h3>
+                        <p>Special Celebration</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="img and site logo/AVI-TS.jpg" alt="Event">
+                    <div class="gallery-overlay">
+                        <h3>School Event</h3>
+                        <p>Annual Gathering</p>
+                    </div>
+                </div>
+
+                <!-- Success -->
+                <div class="gallery-item" data-category="success">
+                    <img src="img and site logo/kidWithFrame.jpg" alt="Success Story">
+                    <div class="gallery-overlay">
+                        <h3>Success Story</h3>
+                        <p>Student Achievement</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="success">
+                    <img src="img and site logo/kidWithFrame2.jpg" alt="Achievement">
+                    <div class="gallery-overlay">
+                        <h3>Achievement</h3>
+                        <p>Student Recognition</p>
+                    </div>
+                </div>
+
+                <!-- Activities -->
+                <div class="gallery-item" data-category="activities">
+                    <img src="img and site logo/KidsGroup.jpg" alt="Group Activity">
+                    <div class="gallery-overlay">
+                        <h3>Group Activity</h3>
+                        <p>Students Working Together</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="activities">
+                    <img src="img and site logo/kids.jpg" alt="School Activity">
+                    <div class="gallery-overlay">
+                        <h3>School Activity</h3>
+                        <p>Learning Through Play</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="activities">
+                    <img src="img and site logo/kids2.jpg" alt="Activity">
+                    <div class="gallery-overlay">
+                        <h3>Activity</h3>
+                        <p>Interactive Learning</p>
+                    </div>
+                </div>
+
+                <!-- Students -->
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/image.jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Our Students</h3>
+                        <p>Active Learners</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/image2.jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Students</h3>
+                        <p>Engaged in Learning</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/image3.jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Students</h3>
+                        <p>Classroom Activities</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/image4.jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Students</h3>
+                        <p>Learning Together</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/image5.jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Students</h3>
+                        <p>Active Participation</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/image6.jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Students</h3>
+                        <p>School Life</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/images (2).jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Students</h3>
+                        <p>Group Photo</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="img and site logo/images(99).jpeg" alt="Students">
+                    <div class="gallery-overlay">
+                        <h3>Students</h3>
+                        <p>School Gathering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <a class="lightbox-prev">&#10094;</a>
+        <a class="lightbox-next">&#10095;</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Avicenna Grammar School</h3>
+                    <p>Empowering young minds through quality education with Oxford Curriculum in Ahmed Pur Lamma.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="programs.html">Early Years (Play Group - KG)</a></li>
+                        <li><a href="programs.html">Primary (1st - 5th)</a></li>
+                        <li><a href="programs.html">Middle School (6th - 8th)</a></li>
+                        <li><a href="programs.html">Extracurricular Activities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rao Sabir Ali Near Ayoub Colony, Ahmed Pur Lamma</p>
+                    <p><i class="fas fa-phone"></i> 0321-0456777</p>
+                    <p><i class="fas fa-envelope"></i> info@avicennagrammarschool.edu.pk</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Avicenna Grammar School. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

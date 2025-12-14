@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission | Avicenna Grammar School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="img and site logo/Logo PNG File Final.png" alt="Avicenna Grammar School Logo">
+            </div>
+            <div class="loader-text">Avicenna Grammar School</div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img and site logo/Logo PNG File Final.png" alt="Avicenna Grammar School Logo">
+                </a>
+                <div class="logo-text">
+                    <h1>Avicenna Grammar School</h1>
+                    <p>Empowering Minds, Shaping Future</p>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="admission.html" class="active">Admission</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Admission 2026</h1>
+            <p>Enroll your child for the academic session 2026. Limited seats available.</p>
+        </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section class="admission-page">
+        <div class="container">
+            <div class="admission-content">
+                <div class="admission-text">
+                    <h2>Admission Process</h2>
+                    <p>We are now accepting applications for the 2026 academic year for classes from Play Group to 8th Class. Our admission process is designed to be simple and transparent.</p>
+                    
+                    <h3>Step-by-Step Process:</h3>
+                    <ol class="admission-steps">
+                        <li>
+                            <strong>Visit Our School</strong>
+                            <p>Schedule a campus tour to see our facilities and meet our staff.</p>
+                        </li>
+                        <li>
+                            <strong>Submit Application</strong>
+                            <p>Complete and submit the admission application form along with required documents.</p>
+                        </li>
+                        <li>
+                            <strong>Required Documents</strong>
+                            <ul>
+                                <li>Birth certificate (original and copy)</li>
+                                <li>Previous school records (if applicable)</li>
+                                <li>Two recent passport-size photographs</li>
+                                <li>Parent/Guardian CNIC copy</li>
+                                <li>Medical certificate (if required)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Assessment/Interview</strong>
+                            <p>Attend an informal assessment or interview (if applicable for higher classes).</p>
+                        </li>
+                        <li>
+                            <strong>Admission Decision</strong>
+                            <p>Receive admission decision within 3-5 working days.</p>
+                        </li>
+                        <li>
+                            <strong>Enrollment</strong>
+                            <p>Complete enrollment process and fee payment to secure admission.</p>
+                        </li>
+                    </ol>
+
+                    <h3>Fee Structure</h3>
+                    <p>We offer an affordable fee structure with flexible payment options. Our fees are competitive and include:</p>
+                    <ul class="fee-list">
+                        <li><i class="fas fa-check"></i> Tuition fees</li>
+                        <li><i class="fas fa-check"></i> Books and materials</li>
+                        <li><i class="fas fa-check"></i> Sports and activities</li>
+                        <li><i class="fas fa-check"></i> Library access</li>
+                        <li><i class="fas fa-check"></i> Computer lab facilities</li>
+                    </ul>
+                    <p><strong>Contact us for detailed fee information and payment plans.</strong></p>
+                    <a href="tel:03210456777" class="btn btn-primary">Call for More Info: 0321-0456777</a>
+                </div>
+                <div class="admission-form">
+                    <h2>Admission Inquiry Form</h2>
+                    <p>Fill out the form below and we will contact you soon.</p>
+                    <form id="admissionForm">
+                        <div class="form-group">
+                            <label for="studentName">Student Name *</label>
+                            <input type="text" id="studentName" name="studentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentName">Parent/Guardian Name *</label>
+                            <input type="text" id="parentName" name="parentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="grade">Grade Applying For *</label>
+                            <select id="grade" name="grade" required>
+                                <option value="">Select Grade</option>
+                                <option value="playgroup">Play Group</option>
+                                <option value="nursery">Nursery</option>
+                                <option value="kg">KG</option>
+                                <option value="1">Class 1</option>
+                                <option value="2">Class 2</option>
+                                <option value="3">Class 3</option>
+                                <option value="4">Class 4</option>
+                                <option value="5">Class 5</option>
+                                <option value="6">Class 6</option>
+                                <option value="7">Class 7</option>
+                                <option value="8">Class 8</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <textarea id="address" name="address" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Avicenna Grammar School</h3>
+                    <p>Empowering young minds through quality education with Oxford Curriculum in Ahmed Pur Lamma.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="programs.html">Early Years (Play Group - KG)</a></li>
+                        <li><a href="programs.html">Primary (1st - 5th)</a></li>
+                        <li><a href="programs.html">Middle School (6th - 8th)</a></li>
+                        <li><a href="programs.html">Extracurricular Activities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rao Sabir Ali Near Ayoub Colony, Ahmed Pur Lamma</p>
+                    <p><i class="fas fa-phone"></i> 0321-0456777</p>
+                    <p><i class="fas fa-envelope"></i> info@avicennagrammarschool.edu.pk</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Avicenna Grammar School. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
